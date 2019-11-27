@@ -11,12 +11,48 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
       <div class="row bg-dark ">
           <div class="col">
             <h3>Deshboard</h3>  
           </div>
           <div class="col text-right">
               <div class="dropdown">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
+                  notification
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                                <div class="modal-header">
+                                        <h5 class="modal-title">notificações</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                    </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    sem notificações
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <script>
+                    $('#exampleModal').on('show.bs.modal', event => {
+                        var button = $(event.relatedTarget);
+                        var modal = $(this);
+                        // Use above variables to manipulate the DOM
+                        
+                    });
+                </script>
                   <button id="my-dropdown" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">perfil</button>
                   <div class="dropdown-menu" aria-labelledby="my-dropdown">
                       <a class="dropdown-item active" href="#">perfil</a>
@@ -79,6 +115,7 @@
             </div>
         </div>
       </div>
+      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
