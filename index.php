@@ -20,22 +20,22 @@
                         <path d="M4 16 L11 16 14 29 18 3 21 16 28 16" />
                     </svg>
                 </center>
-                    <nav class="nav flex-column text-center">
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">dashboard</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
-                        </li>
+                <nav class="nav flex-column text-center">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                    </li>
                     </nav>
             </div>
 
