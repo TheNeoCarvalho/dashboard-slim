@@ -13,28 +13,57 @@
   
         <div class="row w-100" style="height: 100vh;">
 
-            <div class="col h-100 col-lg-2 bg-dark"> 
+            <div class="col h-100 col-lg-2 bg-dark shadow"> 
             <!-- slide bar -->         
                 <center class="text-white" style="margin-top:20px; margin-bottom: 20px;">
-                    <svg id="i-activity" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="100" height="100" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                        <path d="M4 16 L11 16 14 29 18 3 21 16 28 16" />
+                    <svg id="i-github" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="112" height="112">
+                        <path stroke-width="0" fill="currentColor" d="M32 0 C14 0 0 14 0 32 0 53 19 62 22 62 24 62 24 61 24 60 L24 55 C17 57 14 53 13 50 13 50 13 49 11 47 10 46 6 44 10 44 13 44 15 48 15 48 18 52 22 51 24 50 24 48 26 46 26 46 18 45 12 42 12 31 12 27 13 24 15 22 15 22 13 18 15 13 15 13 20 13 24 17 27 15 37 15 40 17 44 13 49 13 49 13 51 20 49 22 49 22 51 24 52 27 52 31 52 42 45 45 38 46 39 47 40 49 40 52 L40 60 C40 61 40 62 42 62 45 62 64 53 64 32 64 14 50 0 32 0 Z" />
                     </svg>
                 </center>
-                <nav class="nav flex-column text-center">
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">dashboard</a>
+                <nav class="nav flex-column">
+                    <li class="nav-item text-left mt-2 mb-2 mt-2">
+                    <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">
+                            <svg id="i-activity" class="mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="22" height="22" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <path d="M4 16 L11 16 14 29 18 3 21 16 28 16" />
+                            </svg>
+                            Dashboard
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                    <li class="nav-item text-left mt-2 mb-2">
+                        <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">
+                            <svg id="i-location" class="mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="22" height="22" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="16" cy="11" r="4" />
+                                <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z" />
+                            </svg>
+                            Mapa
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                    <li class="nav-item text-left mt-2 mb-2">
+                        <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">
+                            <svg id="i-cart" class="mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="22" height="22" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <path d="M6 6 L30 6 27 19 9 19 M27 23 L10 23 5 2 2 2" />
+                                <circle cx="25" cy="27" r="2" />
+                                <circle cx="12" cy="27" r="2" />
+                            </svg>
+                            Compras
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                    <li class="nav-item text-left mt-2 mb-2">
+                        <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">
+                            <svg id="i-calendar" class="mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="22" height="22" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <path d="M2 6 L2 30 30 30 30 6 Z M2 15 L30 15 M7 3 L7 9 M13 3 L13 9 M19 3 L19 9 M25 3 L25 9" />
+                            </svg>
+                            Calendário
+                            <span class="badge badge-primary">26</span> 
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                    <li class="nav-item text-left mt-2 mb-2">
+                        <a class="nav-link active text-decoration-none text-white text-light" href="#" tabindex="-1" aria-disabled="true">
+                            <svg id="i-star" class="mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="22" height="22" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
+                            </svg>
+                            Promoções
+                        </a>
                     </li>
                     </nav>
             </div>
@@ -59,7 +88,7 @@
                             <svg id="i-bell" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                                 <path d="M8 17 C8 12 9 6 16 6 23 6 24 12 24 17 24 22 27 25 27 25 L5 25 C5 25 8 22 8 17 Z M20 25 C20 25 20 29 16 29 12 29 12 25 12 25 M16 3 L16 6" />
                             </svg>
-                            <span class="badge badge-primary">10</span> 
+                            <span class="badge badge-primary" >10</span> 
                         </button>   
                         <!-- Modal -->
                         <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
@@ -105,7 +134,7 @@
                 </nav> 
                 <!-- -->
                 <div class="row text-center mt-3">
-                    <div class="col bg-primary m-3 p-3 rounded shadow-sm">
+                    <div class="col bg-primary m-3 p-3 rounded shadow-sm" style="background-color: #B721FF;background-image: linear-gradient(19deg, #B721FF 0%, #007bff 100%);">
                         <div class="row text-right text-white align-middle">
                             <div class="col-3" style="display: flex;align-items: center;justify-content: center">
                                 <svg id="i-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="49" height="49" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
@@ -118,7 +147,7 @@
                             </div>
                         </div>     
                     </div>
-                    <div class="col bg-primary m-3 p-3 rounded shadow-sm">
+                    <div class="col bg-primary m-3 p-3 rounded shadow-sm" style="background-color: #B721FF;background-image: linear-gradient(19deg, #B721FF 0%, #007bff 100%);">
                         <div class="row text-right text-white align-middle">
                             <div class="col-3" style="display: flex;align-items: center;justify-content: center">
                                 <svg id="i-download" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="49" height="49" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
@@ -131,7 +160,7 @@
                             </div>
                         </div>     
                     </div>
-                    <div class="col bg-primary  m-3 p-3 rounded shadow-sm" style="">
+                    <div class="col bg-primary  m-3 p-3 rounded shadow-sm" style="background-color: #B721FF;background-image: linear-gradient(19deg, #B721FF 0%, #007bff 100%);">
                         <div class="row text-right text-white align-middle">
                             <div class="col-3" style="display: flex;align-items: center;justify-content: center">
                                 <svg id="i-cart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="49" height="49" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
@@ -141,7 +170,7 @@
                                 </svg>
                             </div>
                             <div class="col">
-                                <h4>R$ 23432390</h4>
+                                <h4>R$ 234.323,90</h4>
                                 <h6 class="text-white-50">Lucro atual</h6>
                             </div>
                         </div>         
